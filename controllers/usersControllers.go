@@ -124,8 +124,9 @@ return
 }
 
 func Validate (c *gin.Context){
+	user, _ := c.Get("user")
 	c.JSON(http.StatusAccepted,gin.H{
-		"message":"you are validated",
+		"message":user,
 	})
 	return
 }
