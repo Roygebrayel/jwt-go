@@ -1,4 +1,4 @@
-module jwt-go
+module github.com/Roygebrayel/jwt-go
 
 go 1.20
 

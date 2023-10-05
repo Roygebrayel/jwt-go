@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"fmt"
-	"jwt-go/initializers"
-	"jwt-go/models"
+	"github.com/Roygebrayel/jwt-go/initializers"
+	"github.com/Roygebrayel/jwt-go/models"
 	"net/http"
 	"os"
 	"time"

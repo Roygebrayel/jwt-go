@@ -1,8 +1,8 @@
 package main
 
 import (
-	"jwt-go/initializers"
-	"jwt-go/routes"
+	"github.com/Roygebrayel/jwt-go/initializers"
+	"github.com/Roygebrayel/jwt-go/routes"
 
 	"github.com/gin-gonic/gin"
 )
