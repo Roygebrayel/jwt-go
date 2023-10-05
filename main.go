@@ -1,9 +1,8 @@
 package main
 
 import (
-	"jwt-go/controllers"
 	"jwt-go/initializers"
-	"jwt-go/middleware"
+	"jwt-go/routes"
 
 	"github.com/gin-gonic/gin"
 )
@@ -16,8 +15,9 @@ func init (){
 func main (){
 	
   r := gin.Default()
-  r.POST("/signup",  controllers.Signup)
-  r.POST("/login", controllers.Login)
-  r.GET("/validate",middleware.RequireAuth, controllers.Validate)
+
+  routes.SetupRoutes(r);
+
+
   r.Run() 
 }
