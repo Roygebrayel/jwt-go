@@ -6,8 +6,8 @@ A brief description of what this project does and who it's for
 
 ## Authors
 
-- [@roy.gebrayel](https://github.com/Roygebrayel)
-https://github.com/Roygebrayel/jwt-go/blob/main/LICENSE
+- [roy.gebrayel](https://github.com/Roygebrayel)
+
 
 ## API Reference
 
