@@ -122,3 +122,10 @@ return
 	c.JSON(http.StatusOK,gin.H{})
 	
 }
+
+func Validate (c *gin.Context){
+	c.JSON(http.StatusAccepted,gin.H{
+		"message":"you are validated",
+	})
+	return
+}
