@@ -1,7 +1,7 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for
+an api project to understand restapis in go and jwt authentication using cookies
 
 
 ## Authors
@@ -14,7 +14,7 @@ A brief description of what this project does and who it's for
 #### validate user
 
 ```http
-  GET /validate
+  curl http://localhost:3000/signup
 ```
 
 
@@ -29,6 +29,8 @@ To run this project, you will need to add the following environment variables to
 `DB`
 
 `SECRET` (for jwt)
+
+`PORT` (3000)
 
 
 ## Installation
@@ -53,13 +55,17 @@ Install jwt-go with go get
 
 ## libraries 
 
-**GORM** : 
+**GORM** :  [GORM]( https://gorm.io/)
 
-**GIN** : 
+**GIN** : [GIN] (https://gin-gonic.com/)
 
-**JWT** :
+**JWT** : [JWT] (https://github.com/golang-jwt/jwt)
 
-**Bcrypt** : 
+**Dotenv** : [Dotenv] (https://github.com/joho/godotenv)
+
+**compiler daemon** : [daemon] (https://github.com/githubnemo/CompilerDaemon)
+
+**Bcrypt** : [Bcrypt] (https://pkg.go.dev/golang.org/x/crypto/bcrypt)
 
 
 
